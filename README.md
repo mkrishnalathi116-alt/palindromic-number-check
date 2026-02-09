@@ -1,14 +1,2 @@
-def palindromeNumber_check(num):
-    absnum=abs(num)
-    rev=absnum%10
-    absnum=absnum//10
-    while absnum>0:
-        r=absnum%10
-        absnum=absnum//10
-        rev=rev*10+r
-    if num<0:
-        rev=rev-2*rev
-    if num==rev:
-        return  print(f"the number {num} is a palindrome")
-    else:
-        return  print(f"the number {num} is not a palindrome")
+hey there, 
+this is a code to check whether a number is a palindrome or not
